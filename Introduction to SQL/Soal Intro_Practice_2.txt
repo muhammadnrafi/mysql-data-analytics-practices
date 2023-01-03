@@ -1,0 +1,86 @@
+Gunakan database world
+
+1. Ada berapa bahasa di dunia?
++---------------+
+| jumlah_bahasa |
++---------------+
+|           457 |
++---------------+
+
+2. ada berapa negara yang memiliki bahasa Inggris sebagai bahasa Official
++---------------+
+| jumlah_bahasa |
++---------------+
+|            44 |
++---------------+	
+
+3. Tampilkan nama, populasi dan GNP dari negara yang berasal dari region Southeast Asia
+
++-------------+------------+-----------+
+| Name        | Population | GNP       |
++-------------+------------+-----------+
+| Brunei      |     328000 |  11705.00 |
+| Indonesia   |  212107000 |  84982.00 |
+| Cambodia    |   11168000 |   5121.00 |
+| Laos        |    5433000 |   1292.00 |
+| Myanmar     |   45611000 | 180375.00 |
+| Malaysia    |   22244000 |  69213.00 |
+| Philippines |   75967000 |  65107.00 |
+| Singapore   |    3567000 |  86503.00 |
+| Thailand    |   61399000 | 116416.00 |
+| East Timor  |     885000 |      0.00 |
+| Vietnam     |   79832000 |  21929.00 |
++-------------+------------+-----------+
+
+4. Berapa rata-rata life expectancy negara di asia?
++--------------------+
+| rata_harapan_hidup |
++--------------------+
+|           67.44118 |
++--------------------+
+
+5. Tampilkan nama-nama region yang berada di Eropa
+
++------------------+
+| region           |
++------------------+
+| Southern Europe  |
+| Western Europe   |
+| Eastern Europe   |
+| Nordic Countries |
+| Baltic Countries |
+| British Islands  |
++------------------+
+
+6. Ada berapa kota besar di negara Belanda (country code= nld)
++-------------+
+| jumlah_kota |
++-------------+
+|          28 |
++-------------+
+
+7. Berapa jumlah populasi kota-kota di negara India (ind)
++-----------------+
+| jumlah_populasi |
++-----------------+
+|       123298526 |
++-----------------+
+
+8. Tampilkan nama dan populasi 10 kota pertama di Indonesia
+
++----------------+------------+
+| name           | population |
++----------------+------------+
+| Jakarta        |    9604900 |
+| Surabaya       |    2663820 |
+| Bandung        |    2429000 |
+| Medan          |    1843919 |
+| Palembang      |    1222764 |
+| Tangerang      |    1198300 |
+| Semarang       |    1104405 |
+| Ujung Pandang  |    1060257 |
+| Malang         |     716862 |
+| Bandar Lampung |     680332 |
++----------------+------------+ 
+
+

@@ -1,0 +1,103 @@
+Buatlah tabel karyawan di database toko dengan isi sebagai berikut
+
++------+----------------+------+-------+------------+-------+
+| ID   | nama           | usia | berat | kota       | tahun |
++------+----------------+------+-------+------------+-------+
+|    1 | Andi Santosa   |   32 |  68.3 | Jakarta    |  2010 |
+|    2 | Budi Purnama   |   33 |  88.1 | Jakarta    |  1999 |
+|    3 | Cecep Sutisna  |   35 |  68.1 | Bandung    |  2000 |
+|    4 | Dedi Hartanto  |   32 |  71.3 | Salatiga   |  1998 |
+|    5 | Eva Soraya     |   32 |  48.1 | Medan      |  2015 |
+|    6 | Farah Nainah   |   29 |  52.3 | Surabaya   |  2010 |
+|    7 | Gianti Safitri |   22 |  51.6 | Bandung    |  2017 |
+|    8 | Hamzah Syah    |   34 |    66 | Yogyakarta |  2008 |
+|    9 | Irene Sukindar |   25 |  49.3 | Jakarta    |  2016 |
+|   10 | Joni Saputra   |   28 |  69.8 | Yogyakarta |  2000 |
+|   11 | Budi Raharja   |   51 |    70 | Bandung    |  1998 |
+|   12 | Andi Safitri   |   35 |    67 | Jakarta    |  2018 |
++------+----------------+------+-------+------------+-------+
+
+ID: not null auto_increment
+nama: varchar (255)
+usia: int
+berat: float (1)
+kota: varchar (255)
+tahun: int
+primary key (id)
+
+
+
+
+
+
+
+
+1. Tampilkan data 3 karyawan paling atas.
+
++----+---------------+------+-------+---------+-------+
+| ID | nama          | usia | berat | kota    | tahun |
++----+---------------+------+-------+---------+-------+
+|  1 | Andi Santosa  |   32 |  68.3 | Jakarta |  2010 |
+|  2 | Budi Purnama  |   33 |  88.1 | Jakarta |  1999 |
+|  3 | Cecep Sutisna |   35 |  68.1 | Bandung |  2000 |
++----+---------------+------+-------+---------+-------+
+
+
+2. Tampilkan nama karyawan yang berasal dari Jakarta.
+
++----------------+
+| nama           |
++----------------+
+| Andi Santosa   |
+| Budi Purnama   |
+| Irene Sukindar |
+| Andi Safitri   |
++----------------+
+
+3. Tampilkan nama-nama kota asal karyawan.
+
++------------+
+| kota       |
++------------+
+| Jakarta    |
+| Bandung    |
+| Salatiga   |
+| Medan      |
+| Surabaya   |
+| Yogyakarta |
++------------+
+
+4. Ada berapa karyawan yang berasal dari Bandung?
+
++--------+
+| Jumlah |
++--------+
+|      3 |
++--------+
+
+5. Tampilkan rata-rata berat badan karyawan yang berusia lebih dari 30 tahun.
+
++-------------------+
+| rata_berat        |
++-------------------+
+| 68.36250019073486 |
++-------------------+
+
+6. Tampilkan tahun masuk karyawan yang memiliki nama berawalan huruf 'B'.
+
++-------+
+| tahun |
++-------+
+|  1999 |
+|  1998 |
++-------+
+
+7. Tampilkan total usia karyawan dengan berat di bawah 55.
++------------+
+| total_umur |
++------------+
+|        108 |
++------------+
+
+
+

@@ -1,0 +1,128 @@
+Gunakan database world.
+
+1. Tampilkan 10 negara dengan populasi terbanyak yang memiliki nama berakhiran huruf e.
+
++---------------------------------------+------------+
+| Name                                  | Population |
++---------------------------------------+------------+
+| France                                |   59225700 |
+| Congo, The Democratic Republic of the |   51654000 |
+| Ukraine                               |   50456000 |
+| Mozambique                            |   19680000 |
+| Chile                                 |   15211000 |
+| CÃ´te dÂ?Ivoire                       |   14786000 |
+| Zimbabwe                              |   11669000 |
+| Greece                                |   10545700 |
+| Sierra Leone                          |    4854000 |
+| Singapore                             |    3567000 |
++---------------------------------------+------------+
+
+
+
+2.Ada berapa negara yang merdeka di antara tahun 1900-1945?
+
++---------------+
+| jumlah_negara |
++---------------+
+|            30 |
++---------------+
+
+
+3 tampilkan 5 negara yang memiliki jumlah distrik paling banyak.
+
++-------------+-----------------+
+| CountryCode | Jumlah_district |
++-------------+-----------------+
+| RUS         |              77 |
+| TUR         |              50 |
+| JPN         |              47 |
+| USA         |              45 |
+| MEX         |              33 |
++-------------+-----------------+
+
+
+4. Tampilkan 10 negara yang memiliki kepala negara dengan nama paling panjang.
+
++-------------------+--------------------------------------+--------------+
+| name              | headofstate                          | panjang_nama |
++-------------------+--------------------------------------+--------------+
+| Costa Rica        | Miguel Ã?ngel RodrÃ­guez EcheverrÃ­a |           36 |
+| El Salvador       | Francisco Guillermo Flores PÃ©rez    |           33 |
+| Kuwait            | Jabir al-Ahmad al-Jabir al-Sabah     |           32 |
+| Eritrea           | Isayas Afewerki [Isaias Afwerki]     |           32 |
+| Malaysia          | Salahuddin Abdul Aziz Shah Alhaj     |           32 |
+| Panama            | Mireya Elisa Moscoso RodrÃ­guez      |           31 |
+| Honduras          | Carlos Roberto Flores FacussÃ©       |           30 |
+| Equatorial Guinea | Teodoro Obiang Nguema Mbasogo        |           29 |
+| Mauritania        | Maaouiya Ould SidÂ´Ahmad Taya        |           29 |
+| Cape Verde        | AntÃ³nio Mascarenhas Monteiro        |           29 |
++-------------------+--------------------------------------+--------------+
+
+
+5. Ada berapa negara dengan kepala negara yang memiliki huruf e pada posisi kedua namanya.
+
++----------+
+| Jumlah   |
++----------+
+|       33 |
++----------+
+
+
+
+6. Tampilkan total luas area berdasarkan benuanya, diurutkan dari yang paling kecil.
+
++---------------+-------------+
+| continent     | Luas        |
++---------------+-------------+
+| Oceania       |  8564294.00 |
+| Antarctica    | 13132101.00 |
+| South America | 17864926.00 |
+| Europe        | 23049133.90 |
+| North America | 24214470.00 |
+| Africa        | 30250377.00 |
+| Asia          | 31881005.00 |
++---------------+-------------+
+
+7. Tampilkan 2 negara dengan bahasa resmi paling banyak.
+
++-------------+---------------+
+| countrycode | jumlah_bahasa |
++-------------+---------------+
+| ZAF         |             4 |
+| CHE         |             4 |
++-------------+---------------+
+
+8. Tampilkan nama region di Asia dan Eropa yang memiliki total GNP lebih dari 1,000,000!
+
++-----------------+------------+
+| region          | total_GNP  |
++-----------------+------------+
+| Southern Europe | 2012289.00 |
+| Western Europe  | 4673272.00 |
+| Eastern Asia    | 5524885.00 |
+| British Islands | 1454251.00 |
++-----------------+------------+
+
+
+Gunakan database Sakila
+
+9. tampilkan total omset bulanan pada tahun 2005, diurutkan dari yang paling kecil
+
++--------+----------+
+| bulan  | omset    |
++--------+----------+
+| May    |  4824.43 |
+| June   |  9631.88 |
+| August | 24072.13 |
+| July   | 28373.89 |
++--------+----------+
+
+
+10. Berapakah jumlah hari peminjaman paling lama di toko rental Sakila?
+
++-----------------+
+| lama_pinjam_max |
++-----------------+
+|              10 |
++-----------------+
+
